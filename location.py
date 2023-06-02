@@ -2,7 +2,7 @@ import csv
 import requests
 
 def get_coordinates(address):
-    api_key = 'AIzaSyAWvIfK_464o6pjeRpqRHQf7ZMF02980nM'  # Replace with your actual API key
+    api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'  # Replace with your actual API key
     base_url = 'https://maps.googleapis.com/maps/api/geocode/json'
     params = {
         'address': address,
